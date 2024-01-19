@@ -265,6 +265,9 @@ h1.center {
 	color:#fff;
 	padding:50px 30px 70px;
 }
+#about .half-div:last-of-type {
+	display:none;
+}
 #about p {
 	line-height:1.5;
 	font-size:0.8rem;
@@ -303,11 +306,10 @@ h1.center {
 #about2 {
 	padding:50px 30px;
 }
-#about2 div img {
+#about2 div img,
+#about div img {
 	width:100%;
 	border-radius:3px;
-}
-#about2>div {
 }
 .sub-about {
 	padding:0 10px;
@@ -788,6 +790,9 @@ footer .acys {
 	}
 	.projects {
 		width:49%;
+		display:inline-block;
+	}
+	#about .half-div:last-of-type {
 		display:inline-block;
 	}
 	.half-div:first-of-type {
