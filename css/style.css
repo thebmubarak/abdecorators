@@ -301,7 +301,10 @@ h1.center {
 	color:#fff;
 }
 #project, #staffs, #contact {
-	padding:50px 10px 70px;
+	padding:50px 20px 70px;
+}
+#projectx {
+	padding:50px 20px 0px;
 }
 #about2 {
 	padding:50px 30px;
